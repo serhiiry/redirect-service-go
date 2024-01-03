@@ -1,0 +1,27 @@
+{
+    "pool1": {
+        "domains": [
+            ["domain-a.xyz", 2],
+            ["domain-b.xyz", 1]
+        ],
+        "path_based_domains": {
+            "news/": [
+                ["domain-c.xyz", 2],
+                ["domain-d.xyz", 1]
+            ],
+            "contact/": [
+                ["domain-e.xyz", 2],
+                ["domain-f.xyz", 1]
+            ]
+        },
+        "custom_headers": {
+            "X-Custom-Header": "Value"
+        }
+    },
+    "pool2": {
+        "domains": [
+            ["domain-g.xyz", 2],
+            ["domain-i.xyz", 1]
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-specific .env files
+.env
+
+# Local .terraform directories
+**/.terraform/*
+
+# .DS_Store files
+.DS_Store
+
+# Compiled Go binaries
+/redirect-service
+
+# Go build directory
+/bin/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Docker build files
+.dockerignore
+
+# Ignore IDE and editor files
+.idea/
+*.swp
+*.swo
+.vscode/
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
